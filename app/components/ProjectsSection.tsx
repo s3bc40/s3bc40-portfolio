@@ -4,16 +4,12 @@ import Image from "next/image"; // Use Next.js Image
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 export const ProjectsSection = () => (
-  // Use a responsive grid to ensure a single column on mobile, and two on desktop
-  // The layout itself is the main UX driver here.
   <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
     {projects.map((project) => (
-      // High-Impact Card Structure
       <div
         key={project.id}
         className="card card-compact bg-base-100 shadow-xl transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-accent/30 border border-base-200"
       >
-        {/* Project Image - Prominent and Engaging */}
         <figure className="max-h-64 overflow-hidden bg-base-300">
           <Image
             src={project.imagePlaceholder}
@@ -21,9 +17,8 @@ export const ProjectsSection = () => (
             width={700}
             height={450}
             layout="responsive"
-            objectFit="cover"
+            objectFit="contain"
             className="w-full h-auto transition-opacity duration-500 hover:opacity-80"
-            // Ensure you have actual blurDataURL if you use placeholder="blur"
           />
         </figure>
 
