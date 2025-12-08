@@ -25,6 +25,7 @@ import {
   SiGithub,
   SiGitlab,
   SiDocker,
+  SiFigma,
 } from "react-icons/si";
 
 // Define the structure for a single stack item
@@ -61,6 +62,7 @@ export const techStacks: StackItem[] = [
   // Styling
   { name: "Tailwind CSS", category: "Styling", Icon: SiTailwindcss },
   { name: "DaisyUI", category: "Styling", Icon: SiDaisyui },
+  { name: "Figma", category: "Styling", Icon: SiFigma },
 
   // Operating Systems
   { name: "Linux", category: "Operating Systems", Icon: SiLinux },

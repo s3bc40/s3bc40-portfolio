@@ -20,8 +20,7 @@ export const Section = ({
       {/* Centered Title with Orange Accent */}
       <h2 className="text-4xl sm:text-5xl font-extrabold mb-12 text-center text-primary flex items-center justify-center gap-4">
         {Icon && <Icon className="w-10 h-10" />}
-        <span>{title.split(" ")[0]}</span>{" "}
-        {title.substring(title.indexOf(" ") + 1)}
+        {title}
       </h2>
 
       <div className="w-full mx-auto">{children}</div>

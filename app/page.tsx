@@ -1,11 +1,10 @@
-// app/page.tsx (Updated)
 import { TechStacksSection } from "./components/TechStacksSection";
 import { Section } from "./components/Section";
 import { Nav } from "./components/Nav";
 import { AboutHeroSection } from "./components/AboutHeroSection";
-import { CourseCompletionsSection } from "./components/CourseCompletionsSection";
 import { ProjectsSection } from "./components/ProjectsSection";
-import { FaCode, FaGraduationCap, FaFolderOpen } from "react-icons/fa";
+import { FaCode, FaFolderOpen } from "react-icons/fa";
+import { SoftSkillsRotator } from "./components/SoftSkillsRotator";
 
 export default function PortfolioPage() {
   return (
@@ -13,16 +12,13 @@ export default function PortfolioPage() {
       <Nav />
       <AboutHeroSection id="about" />
 
-      {/* Passing the Icon component via the new 'Icon' prop */}
+      <SoftSkillsRotator />
+
       <Section id="stacks" title="Tech Stacks" Icon={FaCode}>
         <TechStacksSection />
       </Section>
 
-      <Section id="courses" title="Courses Completions" Icon={FaGraduationCap}>
-        <CourseCompletionsSection />
-      </Section>
-
-      <Section id="projects" title="My Projects" Icon={FaFolderOpen}>
+      <Section id="projects" title="Projects" Icon={FaFolderOpen}>
         <ProjectsSection />
       </Section>
     </main>
