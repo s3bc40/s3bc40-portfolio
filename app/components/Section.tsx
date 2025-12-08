@@ -1,10 +1,15 @@
+import React from "react";
+import { IconType } from "react-icons";
+
 export const Section = ({
   id,
   title,
+  Icon,
   children,
 }: {
   id: string;
   title: string;
+  Icon?: IconType;
   children: React.ReactNode;
 }) => (
   <section
@@ -13,13 +18,12 @@ export const Section = ({
   >
     <div className="container mx-auto max-w-6xl">
       {/* Centered Title with Orange Accent */}
-      <h2 className="text-4xl sm:text-5xl font-extrabold mb-12 text-center text-base-content">
-        {/* Highlight the title with the accent color */}
-        <span className="text-accent">{title.split(" ")[0]}</span>{" "}
+      <h2 className="text-4xl sm:text-5xl font-extrabold mb-12 text-center text-primary flex items-center justify-center gap-4">
+        {Icon && <Icon className="w-10 h-10" />}
+        <span>{title.split(" ")[0]}</span>{" "}
         {title.substring(title.indexOf(" ") + 1)}
       </h2>
 
-      {/* Content wrapper: centered using `mx-auto` and `w-full` */}
       <div className="w-full mx-auto">{children}</div>
     </div>
   </section>
