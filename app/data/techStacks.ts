@@ -76,7 +76,6 @@ export const techStacks: StackItem[] = [
 
   // Containers/Databases
   { name: "PostgreSQL", category: "Containers/Databases", Icon: SiPostgresql },
-  { name: "Supabase", category: "Containers/Databases", Icon: SiSupabase },
   { name: "Docker", category: "Containers/Databases", Icon: SiDocker },
 ];
 
