@@ -1,4 +1,5 @@
 import { IconType } from "react-icons";
+import { BiBot } from "react-icons/bi";
 import { FaCode } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -8,7 +9,6 @@ import {
   SiNodedotjs,
   SiPython,
   SiPostgresql,
-  SiSupabase,
   SiJavascript,
   SiRust,
   SiSolidity,
@@ -17,7 +17,6 @@ import {
   SiFoundryvirtualtabletop,
   SiCss3,
   SiDaisyui,
-  SiLaravel,
   SiLinux,
   SiUbuntu,
   SiDebian,
@@ -26,6 +25,8 @@ import {
   SiGitlab,
   SiDocker,
   SiFigma,
+  SiStreamlit,
+  SiFastapi,
 } from "react-icons/si";
 
 // Define the structure for a single stack item
@@ -46,9 +47,11 @@ export const techStacks: StackItem[] = [
   { name: "CSS", category: "Language", Icon: SiCss3 },
 
   // Frameworks/Libraries
+  { name: "Google ADK", category: "Frameworks/Libraries", Icon: BiBot },
+  { name: "Streamlit", category: "Frameworks/Libraries", Icon: SiStreamlit },
+  { name: "FastAPI", category: "Frameworks/Libraries", Icon: SiFastapi },
   { name: "Next.js", category: "Frameworks/Libraries", Icon: SiNextdotjs },
   { name: "React", category: "Frameworks/Libraries", Icon: SiReact },
-  { name: "Node.js", category: "Frameworks/Libraries", Icon: SiNodedotjs },
   { name: "Vue.js", category: "Frameworks/Libraries", Icon: SiVuedotjs },
   { name: "Vuetify", category: "Frameworks/Libraries", Icon: SiVuetify },
   { name: "Moccasin", category: "Frameworks/Libraries", Icon: FaCode },
@@ -57,7 +60,6 @@ export const techStacks: StackItem[] = [
     category: "Frameworks/Libraries",
     Icon: SiFoundryvirtualtabletop,
   },
-  { name: "Laravel", category: "Frameworks/Libraries", Icon: SiLaravel },
 
   // Styling
   { name: "Tailwind CSS", category: "Styling", Icon: SiTailwindcss },

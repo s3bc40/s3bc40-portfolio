@@ -2,7 +2,7 @@
 
 ## ✨ Overview
 
-This repository hosts the source code for my professional portfolio, built to showcase my expertise in high-performance Full-Stack development. The project was designed with a strict focus on mobile-first design.
+This repository hosts the source code for my professional portfolio, built to showcase my expertise in Software development and AI agent development. The project was designed with a strict focus on mobile-first design.
 
 The entire application structure, featuring the main UI/UX design and core features, was conceived, developed, and deployed to Vercel within a single day, leveraging modern development practices and AI-assisted tooling.
 

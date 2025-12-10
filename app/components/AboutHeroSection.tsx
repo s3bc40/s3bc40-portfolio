@@ -32,12 +32,12 @@ export const AboutHeroSection = ({ id }: { id: string }) => (
         </h2>
 
         <h3 className="text-3xl font-semibold mt-2 text-primary">
-          Full-Stack Developer
+          Software & AI agent Engineer
         </h3>
         <p className="py-6 max-w-xl mx-auto lg:mx-0 text-base-content/80">
-          Building high-performance, mobile-first web applications using modern
-          lean stacks. My focus is delivering effective solutions with clean,
-          maintainable code. Feel free to explore my work and connect!
+          Building innovative software solutions and intelligent AI agents to
+          solve real-world problems. Passionate about technology, open-source,
+          and continuous learning.
         </p>
 
         {/* Socials & CTA */}
