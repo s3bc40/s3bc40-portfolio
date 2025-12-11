@@ -59,4 +59,14 @@ export const projects = [
     liveLink: "https://crates.io/crates/txdecode",
     githubLink: "https://github.com/s3bc40/txdecode",
   },
+  {
+    id: 5,
+    title: "Financial Insight Agent",
+    description:
+      "This project serves as a complete, production-ready showcase of AI Agent Implementation using a modern, decoupled microservice architecture. It demonstrates the ability to build, validate, and serve a multi-step, autonomous AI Agent capable of complex reasoning and conditional action.",
+    tech: ["Python", "FastAPI", "Streamlit", "Gemini", "Google ADK"],
+    imagePlaceholder: "/images/projects/financial_ia.png",
+    liveLink: "",
+    githubLink: "https://github.com/s3bc40/financial-agent",
+  },
 ];

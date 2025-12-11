@@ -5,7 +5,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 export const ProjectsSection = () => (
   <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
-    {projects.map((project) => (
+    {projects.reverse().map((project) => (
       <div
         key={project.id}
         className="card card-compact bg-base-100 shadow-xl transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-accent/30 border border-base-200"
@@ -16,9 +16,7 @@ export const ProjectsSection = () => (
             alt={`${project.title} Screenshot`}
             width={700}
             height={450}
-            layout="responsive"
-            objectFit="contain"
-            className="w-full h-auto transition-opacity duration-500 hover:opacity-80"
+            className="w-full h-64 object-cover object-top transition-opacity duration-500 hover:opacity-80"
           />
         </figure>
 
@@ -43,14 +41,16 @@ export const ProjectsSection = () => (
 
           {/* Action Buttons - Clear and Prominent CTAs */}
           <div className="card-actions justify-end mt-4">
-            <a
-              href={project.liveLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary btn-sm sm:btn-md gap-2"
-            >
-              <FaExternalLinkAlt className="w-4 h-4" /> Live Demo
-            </a>
+            {project.liveLink && (
+              <a
+                href={project.liveLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary btn-sm sm:btn-md gap-2"
+              >
+                <FaExternalLinkAlt className="w-4 h-4" /> Live Demo
+              </a>
+            )}
             <a
               href={project.githubLink}
               target="_blank"
