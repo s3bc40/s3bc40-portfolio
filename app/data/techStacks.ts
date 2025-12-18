@@ -6,7 +6,6 @@ import {
   SiReact,
   SiTypescript,
   SiTailwindcss,
-  SiNodedotjs,
   SiPython,
   SiPostgresql,
   SiJavascript,
@@ -27,6 +26,8 @@ import {
   SiFigma,
   SiStreamlit,
   SiFastapi,
+  SiSupabase,
+  SiShadcnui,
 } from "react-icons/si";
 
 // Define the structure for a single stack item
@@ -47,11 +48,11 @@ export const techStacks: StackItem[] = [
   { name: "CSS", category: "Language", Icon: SiCss3 },
 
   // Frameworks/Libraries
+  { name: "Next.js", category: "Frameworks/Libraries", Icon: SiNextdotjs },
+  { name: "React", category: "Frameworks/Libraries", Icon: SiReact },
   { name: "Google ADK", category: "Frameworks/Libraries", Icon: BiBot },
   { name: "Streamlit", category: "Frameworks/Libraries", Icon: SiStreamlit },
   { name: "FastAPI", category: "Frameworks/Libraries", Icon: SiFastapi },
-  { name: "Next.js", category: "Frameworks/Libraries", Icon: SiNextdotjs },
-  { name: "React", category: "Frameworks/Libraries", Icon: SiReact },
   { name: "Vue.js", category: "Frameworks/Libraries", Icon: SiVuedotjs },
   { name: "Vuetify", category: "Frameworks/Libraries", Icon: SiVuetify },
   { name: "Moccasin", category: "Frameworks/Libraries", Icon: FaCode },
@@ -62,6 +63,7 @@ export const techStacks: StackItem[] = [
   },
 
   // Styling
+  { name: "Shadcn UI", category: "Styling", Icon: SiShadcnui },
   { name: "Tailwind CSS", category: "Styling", Icon: SiTailwindcss },
   { name: "DaisyUI", category: "Styling", Icon: SiDaisyui },
   { name: "Figma", category: "Styling", Icon: SiFigma },
@@ -77,6 +79,7 @@ export const techStacks: StackItem[] = [
   { name: "GitLab", category: "Version Control", Icon: SiGitlab },
 
   // Containers/Databases
+  { name: "Supabase", category: "Containers/Databases", Icon: SiSupabase },
   { name: "PostgreSQL", category: "Containers/Databases", Icon: SiPostgresql },
   { name: "Docker", category: "Containers/Databases", Icon: SiDocker },
 ];

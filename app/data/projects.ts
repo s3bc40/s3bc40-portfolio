@@ -69,4 +69,22 @@ export const projects = [
     liveLink: "",
     githubLink: "https://github.com/s3bc40/financial-agent",
   },
+  {
+    id: 6,
+    title: "Policy Simplifier",
+    description:
+      "A modern web application that uses **Gemini AI** to simplify complex security policies into actionable internal memos. Built with **Next.js 16**, **Stripe** for credit purchases, and **Supabase** for authentication and data storage.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Stripe",
+      "Supabase",
+      "Gemini",
+      "Shadcn UI",
+    ],
+    imagePlaceholder: "/images/projects/policy-simplifier.png",
+    liveLink: "https://policy-simplifier.xyz/",
+    githubLink: "https://github.com/s3bc40/policy-simplifier",
+  },
 ];

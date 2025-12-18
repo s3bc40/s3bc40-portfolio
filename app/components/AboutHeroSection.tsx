@@ -32,7 +32,7 @@ export const AboutHeroSection = ({ id }: { id: string }) => (
         </h2>
 
         <h3 className="text-3xl font-semibold mt-2 text-primary">
-          Software & AI agent Engineer
+          Full-stack AI Engineer
         </h3>
         <p className="py-6 max-w-xl mx-auto lg:mx-0 text-base-content/80">
           Building innovative software solutions and intelligent AI agents to
