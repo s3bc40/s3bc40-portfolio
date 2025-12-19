@@ -73,7 +73,7 @@ export const projects = [
     id: 6,
     title: "Policy Simplifier",
     description:
-      "A modern web application that uses **Gemini AI** to simplify complex security policies into actionable internal memos. Built with **Next.js 16**, **Stripe** for credit purchases, and **Supabase** for authentication and data storage.",
+      "A modern web application that uses Gemini AI to simplify complex security policies into actionable internal memos. Built with Next.js 16, Stripe for credit purchases, and Supabase for authentication and data storage.",
     tech: [
       "Next.js",
       "TypeScript",
