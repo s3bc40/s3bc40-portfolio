@@ -32,12 +32,12 @@ export const AboutHeroSection = ({ id }: { id: string }) => (
         </h2>
 
         <h3 className="text-3xl font-semibold mt-2 text-primary">
-          Full-Stack to Cloud Engineer
+          Full-Stack Cloud Engineer
         </h3>
         <p className="py-6 max-w-xl mx-auto lg:mx-0 text-base-content/80">
-          Building innovative software solutions and intelligent AI agents to
-          solve real-world problems. Passionate about technology, open-source,
-          and continuous learning.
+          I am a Full-Stack Cloud Engineer specializing in AWS architecture. 
+          From building intelligent AI agents to automating resilient cloud infrastructures, 
+          I focus on creating systems that are secure, scalable, and cost-effective.
         </p>
 
         {/* Socials & CTA */}
